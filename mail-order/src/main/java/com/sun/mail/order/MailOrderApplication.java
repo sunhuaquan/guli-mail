@@ -1,13 +1,13 @@
-package com.sun.mail.ware;
+package com.sun.mail.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MallWareApplication {
+public class MailOrderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MallWareApplication.class, args);
+        SpringApplication.run(MailOrderApplication.class, args);
     }
 
 }
