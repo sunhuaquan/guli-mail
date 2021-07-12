@@ -8,13 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mail-order" />
         <module name="mail-ware" />
+        <module name="mail-coupon" />
         <module name="mail-product" />
+        <module name="mail-common" />
         <module name="mail-member" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mail-coupon" options="-parameters" />
       <module name="mail-member" options="-parameters" />
       <module name="mail-order" options="-parameters" />
       <module name="mail-product" options="-parameters" />
