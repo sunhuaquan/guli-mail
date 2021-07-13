@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mail-order" />
-        <module name="mail-ware" />
-        <module name="mail-coupon" />
-        <module name="mail-product" />
         <module name="mail-common" />
+        <module name="mail-coupon" />
         <module name="mail-member" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mail-order" target="1.5" />
+      <module name="mail-product" target="1.8" />
+      <module name="mail-ware" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
