@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>com.sun.mail</groupId>
     <artifactId>guli-mail</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -13,5 +13,6 @@
         <module>mail-member</module>
         <module>mail-common</module>
         <module>mail-coupon</module>
+        <module>mail-gateway</module>
     </modules>
 </project>

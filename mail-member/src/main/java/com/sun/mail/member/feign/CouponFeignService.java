@@ -9,7 +9,7 @@ import java.util.Map;
 @FeignClient("mail-coupon")
 public interface CouponFeignService {
 
-    @RequestMapping("/coupon/coupon/member/list")
+    @RequestMapping("/api/coupon/member/list")
     Map<String, Object> membercoupons();
 
 }

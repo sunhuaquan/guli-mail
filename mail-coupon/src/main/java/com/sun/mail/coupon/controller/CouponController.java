@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@RequestMapping("coupon/coupon")
+@RequestMapping("/coupon")
 @RefreshScope
 public class CouponController {
 
