@@ -12,8 +12,8 @@ import java.util.Map;
 public class MemberController {
 
 
-    @Autowired
-    CouponFeignService couponFeignService;
+    @Autowired()
+    private CouponFeignService couponFeignService;
 
     @RequestMapping("/coupons")
     public Map<String, Object> test() {

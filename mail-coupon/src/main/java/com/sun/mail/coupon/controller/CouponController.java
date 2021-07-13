@@ -13,6 +13,7 @@ import java.util.Map;
 @RefreshScope
 public class CouponController {
 
+    @Value("${coupon.user.name}")
     private String name="";
 
     @Value("${coupon.user.age}")

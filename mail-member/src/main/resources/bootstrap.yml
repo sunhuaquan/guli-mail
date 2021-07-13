@@ -1,6 +1,6 @@
 spring:
   application:
-    name: mail-coupon
+    name: mail-member
   cloud:
     nacos:
       discovery:
