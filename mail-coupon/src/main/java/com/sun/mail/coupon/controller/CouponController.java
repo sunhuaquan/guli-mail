@@ -5,6 +5,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -27,10 +28,13 @@ public class CouponController {
     }
 
     @RequestMapping("/test")
-    public Map<String, Object> test(){
+    public Map<String, Object> test(HttpServletRequest request){
+
+        int port = request.getServerPort();
         Map<String, Object> map = new HashMap<>();
         map.put("name", name);
         map.put("age", age);
+        map.put("port",port);
         return map;
 
     }

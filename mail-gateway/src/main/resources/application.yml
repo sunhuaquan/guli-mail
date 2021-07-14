@@ -5,6 +5,8 @@ spring:
         - id: url-proxy-1
           uri: lb://mail-coupon
           predicates:
-            - Path=/coupon/**
+            - Path=/api/coupon/**
+          filters:
+            - RewritePath=/api/coupon/(?<segment>.*),/coupon/$\{segment}  # 把/api/coupon/* 改变成 /coupon/*
 server:
   port: 8088
