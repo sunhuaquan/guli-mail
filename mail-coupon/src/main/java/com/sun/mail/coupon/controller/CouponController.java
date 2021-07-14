@@ -19,7 +19,7 @@ public class CouponController {
     @Value("${coupon.user.age}")
     private Integer age;
 
-    @RequestMapping("/member/list")
+    @RequestMapping("/coupon/list")
     public Map<String, Object> membercoupons() {
         Map<String, Object> map = new HashMap<>();
         map.put("102011", "满100-10");
