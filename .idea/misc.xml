@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/mail-order/pom.xml" />
         <option value="$PROJECT_DIR$/mail-ware/pom.xml" />
         <option value="$PROJECT_DIR$/mail-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/mail-third-party/pom.xml" />
       </list>
     </option>
   </component>

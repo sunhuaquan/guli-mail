@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mail-coupon" />
         <module name="mail-common" />
+        <module name="mail-third-party" />
         <module name="mail-gateway" />
         <module name="mail-member" />
       </profile>
@@ -25,6 +26,7 @@
       <module name="mail-member" options="-parameters" />
       <module name="mail-order" options="-parameters" />
       <module name="mail-product" options="-parameters" />
+      <module name="mail-third-party" options="-parameters" />
       <module name="mail-ware" options="-parameters" />
     </option>
   </component>

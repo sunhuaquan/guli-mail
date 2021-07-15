@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 6e79d4e3-242d-49f4-b656-f7ff8161c8c4
+        fileExtension: yaml
+    loadbalancer:
+      ribbon:
+        enabled: false
+  application:
+    name: mail-third-party

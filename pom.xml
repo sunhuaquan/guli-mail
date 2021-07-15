@@ -14,5 +14,6 @@
         <module>mail-common</module>
         <module>mail-coupon</module>
         <module>mail-gateway</module>
+        <module>mail-third-party</module>
     </modules>
 </project>
