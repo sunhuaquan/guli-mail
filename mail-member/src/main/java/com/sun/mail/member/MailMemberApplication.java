@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableFeignClients(basePackages="com.sun.mail.member.feign")
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.sun.mail")
 @EnableDiscoveryClient
 public class MailMemberApplication {
 
