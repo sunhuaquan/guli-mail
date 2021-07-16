@@ -13,6 +13,9 @@
         <option value="$PROJECT_DIR$/mail-ware/pom.xml" />
         <option value="$PROJECT_DIR$/mail-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/mail-third-party/pom.xml" />
+        <option value="$PROJECT_DIR$/mail-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/mail-produce/pom.xml" />
+        <option value="$PROJECT_DIR$/mail-product/pom.xml" />
       </list>
     </option>
   </component>

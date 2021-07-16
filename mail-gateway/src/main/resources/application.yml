@@ -2,11 +2,18 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: url-proxy-1
+        - id: mail-coupon
           uri: lb://mail-coupon
           predicates:
             - Path=/api/coupon/**
           filters:
-            - RewritePath=/api/coupon/(?<segment>.*),/coupon/$\{segment}  # 把/api/coupon/* 改变成 /coupon/*
+            - RewritePath=/api/coupon/(?<segment>.*),/coupon/$\{segment}
+
+        - id: mail-product
+          uri: lb://mail-product
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/product/(?<segment>.*),/product/$\{segment}
 server:
   port: 8088

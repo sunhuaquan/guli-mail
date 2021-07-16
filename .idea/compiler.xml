@@ -8,20 +8,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mail-coupon" />
+        <module name="mail-product" />
+        <module name="mail-gateway" />
+        <module name="mail-auth" />
         <module name="mail-common" />
         <module name="mail-third-party" />
-        <module name="mail-gateway" />
         <module name="mail-member" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mail-order" target="1.5" />
-      <module name="mail-product" target="1.8" />
       <module name="mail-ware" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mail-auth" options="-parameters" />
       <module name="mail-coupon" options="-parameters" />
       <module name="mail-gateway" options="-parameters" />
       <module name="mail-member" options="-parameters" />

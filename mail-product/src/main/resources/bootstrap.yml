@@ -1,6 +1,6 @@
 spring:
   application:
-    name: mail-member
+    name: mail-product
   cloud:
     nacos:
       discovery:
