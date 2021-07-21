@@ -6,3 +6,11 @@ spring:
   redis:
     host: 127.0.0.1
     port: 6379
+
+mail:
+  thread:
+    pool:
+      coreSize: 20
+      maxSize: 200
+      keepAliveTime: 5000
+
