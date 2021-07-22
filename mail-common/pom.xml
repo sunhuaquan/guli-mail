@@ -91,5 +91,10 @@
             <artifactId>spring-context</artifactId>
             <version>5.2.4.RELEASE</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
     </dependencies>
 </project>

@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/mail-auth/pom.xml" />
         <option value="$PROJECT_DIR$/mail-produce/pom.xml" />
         <option value="$PROJECT_DIR$/mail-product/pom.xml" />
+        <option value="$PROJECT_DIR$/mail-test-sentinel/pom.xml" />
       </list>
     </option>
   </component>

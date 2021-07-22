@@ -17,5 +17,6 @@
         <module>mail-third-party</module>
         <module>mail-auth</module>
         <module>mail-product</module>
+        <module>mail-test-sentinel</module>
     </modules>
 </project>
