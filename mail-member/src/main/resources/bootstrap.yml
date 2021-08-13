@@ -11,3 +11,12 @@ spring:
     loadbalancer:
       ribbon:
         enabled: false
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+    producer:
+      retries: 5
+      acks: -1
+      batch-size: 16384
+      buffer-memory: 33554432
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
