@@ -18,5 +18,6 @@
         <module>mail-auth</module>
         <module>mail-product</module>
         <module>mail-test-sentinel</module>
+        <module>mail-test</module>
     </modules>
 </project>

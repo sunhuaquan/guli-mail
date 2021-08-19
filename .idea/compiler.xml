@@ -10,6 +10,7 @@
         <module name="mail-coupon" />
         <module name="mail-product" />
         <module name="mail-gateway" />
+        <module name="mail-test" />
         <module name="mail-auth" />
         <module name="mail-test-sentinel" />
         <module name="mail-common" />
