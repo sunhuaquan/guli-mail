@@ -1,4 +1,4 @@
-package com.sun.mail.test;
+package com.sun.mail.test.zookeeper;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
@@ -23,7 +23,7 @@ public class CuratorLockTest {
                     lock1.acquire();
                     System.out.println("线程1 再次获取到锁");
 
-                    Thread.sleep(5 * 1000);
+                    Thread.sleep(50 * 1000);
 
                     lock1.release();
                     System.out.println("线程1 释放锁");
@@ -47,7 +47,7 @@ public class CuratorLockTest {
                     lock2.acquire();
                     System.out.println("线程2 再次获取到锁");
 
-                    Thread.sleep(5 * 1000);
+                    Thread.sleep(50 * 1000);
 
                     lock2.release();
                     System.out.println("线程2 释放锁");

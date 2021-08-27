@@ -1,4 +1,4 @@
-package com.sun.mail.test;
+package com.sun.mail.test.zookeeper;
 
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.data.Stat;
