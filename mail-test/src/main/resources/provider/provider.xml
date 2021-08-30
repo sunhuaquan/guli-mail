@@ -14,6 +14,7 @@
     <dubbo:protocol name="dubbo" port="20880" />
 
 
+    <dubbo:provider ></dubbo:provider>
 
     <!-- 声明需要暴露的服务接口 -->
     <dubbo:service interface="com.sun.mail.test.dubbo.DemoService" ref="demoService" loadbalance="random" weight="2" />
